@@ -1,0 +1,17 @@
+.nomeCompleto{
+    position: absolute;
+    margin-left: 595px;
+    margin-top: 10px;
+}
+
+.email{
+    position: absolute;
+    margin-left: 595px;
+    margin-top: 40px;
+}
+
+.btnLog{
+    position: absolute;
+    margin-left: 650px;
+    margin-top: 80px;
+}

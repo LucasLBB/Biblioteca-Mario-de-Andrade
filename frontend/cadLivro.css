@@ -1,0 +1,51 @@
+.nL{
+    position: absolute;
+    margin-left: 575px;
+}
+
+.au{
+    position: absolute;
+    margin-left: 575px;
+    margin-top: 10px;
+}
+
+.te{
+    position: absolute;
+    margin-left: 575px;
+    margin-top: 20px;
+}
+
+.dtPub{
+    position: absolute;
+    margin-left: 575px;
+    margin-top: 30px;
+}
+
+.qtCo{
+    position: absolute;
+    margin-left: 575px;
+    margin-top: 40px;
+}
+
+.cat{
+    position: absolute;
+    margin-left: 650px;
+    margin-top: 50px;
+}
+
+.cat2{
+    position: absolute;
+    margin-left: 575px;
+    margin-top: 50px;
+}
+
+.btnCad{
+    position: absolute;
+    margin-left: 625px;
+    margin-top: 90px;
+}
+
+.sub{
+    text-align: center;
+    font-size: xx-large;
+}

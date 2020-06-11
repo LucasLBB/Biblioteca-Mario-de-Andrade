@@ -1,0 +1,146 @@
+table {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+}
+
+tbody tr:nth-of-type(odd) {
+    background-color: #E1E1E1;
+}
+
+td, th {
+    padding: 1em;
+}
+
+td.real:before {
+    content: 'R$';
+}
+
+tfoot tr {
+    background-color: #333;
+    color: #fff;
+}
+
+.id{
+    position: absolute;
+    margin-left: 10px;  
+}
+
+.nome{
+    position: absolute;
+    margin-left: 100px;  
+}
+
+.nomeLivro{
+    position: absolute;
+    margin-left: -20px;
+}
+
+.autor{
+    position: absolute;
+    margin-left: 270px;  
+}
+
+.autorLivro{
+    position: absolute;
+    margin-left: 155px; 
+}
+
+.tema{
+    position: absolute;
+    margin-left: 430px;  
+}
+
+.temaLivro{
+    position: absolute;
+    margin-left: 310px;
+}
+
+.dtPub{
+    position: absolute;
+    margin-left: 580px;  
+}
+
+.dataPublicacao{
+    position: absolute;
+    margin-left: 435px;
+}
+
+.qtdCo{
+    position: absolute;
+    margin-left: 790px;  
+}
+
+.quantidadeCopias{
+    position: absolute;
+    margin-left: 620px;
+}
+
+.excluirLivro{
+    position: absolute;
+    margin-left: -220px;
+     
+}
+
+.alterarLivro{
+    position: absolute;
+    margin-left: -125px;
+}
+
+.categoria{
+    text-transform: capitalize;
+    text-indent: 950px;
+    margin-right: -480px; 
+}
+
+.categoriaLivro{
+    text-transform: capitalize;
+    text-indent: 830px;
+
+}
+
+a.ex:link {
+    position: absolute;
+    margin-left: -140px;
+    margin-top: -10px;  
+    color: darkred;
+    text-decoration: none;
+}
+
+a.ex:visited {
+    text-decoration: none;
+    color: darkred;
+}
+
+a.ex:hover {
+    text-decoration: none;
+    color: darkred;
+}
+
+a.ex:active {
+    text-decoration: none;
+    color: darkred;
+}
+
+a.alt:link {
+    position: absolute;
+    margin-left: -85px; 
+    margin-top: -10px;  
+    color: darkred;
+    text-decoration: none;
+}
+
+a.alt:visited {
+    text-decoration: none;
+    color: darkred;
+}
+
+a.alt:hover {
+    text-decoration: none;
+    color: darkred;
+}
+
+a.alt:active {
+    text-decoration: none;
+    color: darkred;
+}

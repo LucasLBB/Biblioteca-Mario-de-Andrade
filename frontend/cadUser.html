@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Cadastro de Usuários</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="cadUser.css">    
+</head>
+
+<body>
+    <main>
+        <header>
+            <iframe src="header.html"></iframe>
+            <h1>Cadastre-se</h1>
+        </header>
+        <form action="../backend/cadUser.php" method="POST">
+            <input type="text" name="nomeCompleto" class="nomeCompleto" size="25" placeholder="Nome Completo" required><br>
+            <input type="date" name="dtNasc" class="dtNasc" required><br>
+            <label for="txtEscola" class="lblEscola">Grau de Escolaridade</label> 
+            <select name="escolaridade" id="escola" class="escola" required>
+                <option value="Educação Infantil">Educação Infantil</option>
+                <option value="Ensino Fundamental">Ensino Fundamental</option>
+                <option value="Ensino Médio">Ensino Médio</option>
+                <option value="Graduação">Graduação</option>
+                <option value="Pós-Graduação">Pós-Graduação</option>
+                <option value="Mestrado">Mestrado</option>
+                <option value="Doutorado">Doutorado</option>
+            </select><br>
+            <input type="text" name="endereco" class="endereco" placeholder="Endereço: Ex Rua Pameiras" required><br>
+            <input type="text" name="telefone" class="telefone" placeholder="Telefone" placeholder="1199999999" required><br>
+            <label for="txtGenero" class="lblGenero">Gênero</label> 
+            <select name="genero" class="genero" id="gen" required>
+                <option value="Masculino">Masculino</option>
+                <option value="Feminino">Feminino</option>
+                <option value="Outro">Outro</option>
+                <option value="Prefere não Responder">Prefiro não responder</option>
+            </select><br>
+            <input type="email" name="email" class="email" placeholder="E-mail" required><br>
+
+            <input type="submit" class="btnCad" value="Cadastrar">
+        </form>
+    </main>
+</body>
+
+</html>

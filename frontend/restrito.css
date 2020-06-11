@@ -1,0 +1,141 @@
+table {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+}
+
+tbody tr:nth-of-type(odd) {
+    background-color: #E1E1E1;
+}
+
+td, th {
+    padding: 1em;
+}
+
+td.real:before {
+    content: 'R$';
+}
+
+tfoot tr {
+    background-color: #333;
+    color: #fff;
+}
+
+.id{
+    position: absolute;
+    margin-left: 10px;  
+}
+
+.nome{
+    position: absolute;
+    margin-left: 100px;  
+}
+
+.nomeLivro{
+    position: absolute;
+    margin-left: -20px;
+}
+
+.autor{
+    position: absolute;
+    margin-left: 270px;  
+}
+
+.autorLivro{
+    position: absolute;
+    margin-left: 155px; 
+}
+
+.tema{
+    position: absolute;
+    margin-left: 430px;  
+}
+
+.temaLivro{
+    position: absolute;
+    margin-left: 310px;
+}
+
+.dtPub{
+    position: absolute;
+    margin-left: 575px;  
+}
+
+.dataPublicacao{
+    position: absolute;
+    margin-left: 435px;
+}
+
+.qtdCo{
+    position: absolute;
+    margin-left: 800px;  
+}
+
+.quantidadeCopias{
+    position: absolute;
+    margin-left: 620px;
+}
+
+.categoria{
+    text-transform: capitalize;
+    text-indent: 950px;
+    margin-right: -480px; 
+}
+
+.categoriaLivro{
+    text-transform: capitalize;
+    text-indent: 830px;
+
+}
+
+.soEmpres{
+    position: absolute;
+    margin-left: -250px; 
+}
+
+a.soEmprestimo:link {
+    position: absolute;
+    margin-left: -245px; 
+    margin-top: -10px;  
+    color: darkred;
+    text-decoration: none;
+}
+
+a.soEmprestimo:visited {
+    text-decoration: none;
+    color: darkred;
+}
+
+a.soEmprestimo:hover {
+    text-decoration: none;
+    color: darkred;
+}
+
+a.soEmprestimo:active {
+    text-decoration: none;
+    color: darkred;
+}
+
+a.btnSair:link {
+    font-size: 20px;
+    position: absolute;
+    margin-left: 1280px; 
+    margin-top: -138px;  
+    color: darkred;
+    text-decoration: none;
+}
+
+a.btnSair:visited {
+    text-decoration: none;
+    color: darkred;
+}
+
+a.btnSair:hover {
+    text-decoration: none;
+    color: darkred;
+}
+
+a.btnSair:active {
+    text-decoration: none;
+    color: darkred;
+}

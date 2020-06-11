@@ -1,0 +1,57 @@
+.nL{
+    position: absolute;
+    margin-left: 575px;
+}
+
+.au{
+    position: absolute;
+    margin-left: 575px;
+    margin-top: 10px;
+}
+
+.te{
+    position: absolute;
+    margin-left: 575px;
+    margin-top: 20px;
+}
+
+.dtPub{
+    position: absolute;
+    margin-left: 575px;
+    margin-top: 30px;
+}
+
+.qtCo{
+    position: absolute;
+    margin-left: 575px;
+    margin-top: 43px;
+}
+
+.cat{
+    position: absolute;
+    margin-left: 575px;
+    margin-top: 53px;
+}
+
+.cat2{
+    position: absolute;
+    margin-left: 575px;
+    margin-top: 50px;
+}
+
+.btnAlt{
+    position: absolute;
+    margin-left: 625px;
+    margin-top: 85px;
+}
+
+.sub{
+    text-align: center;
+    font-size: xx-large;
+}
+
+.id_Livro{
+    position: absolute;
+    margin-left: 575px;
+    margin-top: -10px;
+}

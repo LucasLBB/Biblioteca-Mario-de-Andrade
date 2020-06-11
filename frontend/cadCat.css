@@ -1,0 +1,22 @@
+.nC{
+    position: absolute;
+    margin-left: 575px;
+    margin-top: 40px;
+}
+
+.sub{
+    text-align: center;
+    font-size: xx-large;
+}
+
+.btnCadCat{
+    position: absolute;
+    margin-left: 615px;
+    margin-top: 70px;
+}
+
+.nomeCat{
+    position: absolute;
+    margin-left: 575px;
+    margin-top: 50px;
+}
