@@ -4,29 +4,29 @@
 <head>
     <title>Exibir Livros</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="exibir.css">
-    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="styles/exibir.css">
+    <link rel="stylesheet" href="styles/header.css">
 </head>
 
-<header>
-    <iframe src="header.html"></iframe>
-    <h1>Livros Cadastrados</h1>
-</header>
-
 <body>
-    <table>
-        <tr>
-            <td class="id_Livro">ID Livro</td>
-            <td class="nomeLivro">Nome do Livro</td>
-            <td class="autorLivro">Autor</td>
-            <td class="temaLivro">Tema</td>
-            <td class="dataPublicacao">Data de Publicação</td>
-            <td class="quantidadeCopias">Quantidade de Cópias</td>
-            <td class="categoriaLivro">Categoria</td>
-            <td class="excluirLivro">Excluir</td>
-            <td class="alterarLivro">Alterar</td>
-        </tr>
-    </table>
+
+    <header>
+        <iframe src="header.html"></iframe>
+        <h1>Livros Cadastrados</h1>
+    </header>
+        <table>
+            <tr>
+                <td class="id_Livro">ID Livro</td>
+                <td class="nomeLivro">Nome do Livro</td>
+                <td class="autorLivro">Autor</td>
+                <td class="temaLivro">Tema</td>
+                <td class="dataPublicacao">Data de Publicação</td>
+                <td class="quantidadeCopias">Quantidade de Cópias</td>
+                <td class="categoriaLivro">Categoria</td>
+                <td class="excluirLivro">Excluir</td>
+                <td class="alterarLivro">Alterar</td>
+            </tr>
+        </table>
     <?php
 
     require_once "../conexao/conexao.php";

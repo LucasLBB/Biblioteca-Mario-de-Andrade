@@ -4,16 +4,19 @@
 <head>
     <title>Cadastro de Usuários</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="header.css">
-    <link rel="stylesheet" href="cadUser.css">    
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/cadUser.css">    
 </head>
 
 <body>
+
+    <header>
+        <iframe src="header.html"></iframe>
+        <h1>Cadastre-se</h1>
+    </header>
+
     <main>
-        <header>
-            <iframe src="header.html"></iframe>
-            <h1>Cadastre-se</h1>
-        </header>
+        
         <form action="../backend/cadUser.php" method="POST">
             <input type="text" name="nomeCompleto" class="nomeCompleto" size="25" placeholder="Nome Completo" required><br>
             <input type="date" name="dtNasc" class="dtNasc" required><br>

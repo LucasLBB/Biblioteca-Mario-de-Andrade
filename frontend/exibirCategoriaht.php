@@ -9,12 +9,13 @@ require "../backend/exibirCategoria.php";
 <head>
     <title>Categorias</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="exibirCat.css">
+    <link rel="stylesheet" href="styles/exibirCat.css">
 </head>
-<main>
-    <body>
-        
-    </body>
-</main>
+<body>
 
+    <main>
+
+    </main>
+        
+</body>
 </html>

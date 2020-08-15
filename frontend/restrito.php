@@ -22,12 +22,12 @@ $dados = mysqli_fetch_array($result);
 
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Área Restrita</title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="header.css">
-    </head>
-    <body>
-        <a href="../backend/logout.php" class="btnSair">Sair</a>
-    </body>
+<head>
+    <title>Área Restrita</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles/header.css">
+</head>
+<body>
+    <a href="../backend/logout.php" class="btnSair">Sair</a>
+</body>
 </html>

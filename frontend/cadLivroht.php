@@ -7,16 +7,18 @@ require_once "../conexao/conexao.php"
 
 <head>
     <title>Cadastro de Livros</title>
-    <link rel="stylesheet" href="header.css">
-    <link rel="stylesheet" href="cadLivro.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/cadLivro.css">
     <meta charset="utf-8">
 </head>
 
 <body>
+
+    <header>
+        <iframe src="header.html"></iframe>
+    </header>
     <main>
-        <header>
-            <iframe src="header.html"></iframe>
-        </header>
+        
         <h2 class="sub">Cadastre um Livro</h2>
         <form action="../backend/cadLivro.php" method="POST">
             <input type="text" name="nomeLivro" class="nL" size="25" placeholder="Nome do Livro" required><br>

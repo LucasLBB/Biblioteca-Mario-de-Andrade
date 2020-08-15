@@ -4,8 +4,8 @@
 <head>
     <title>Exibir Livros</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="restrito.css">
-    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="styles/restrito.css">
+    <link rel="stylesheet" href="styles/header.css">
 </head>
 
 <body>

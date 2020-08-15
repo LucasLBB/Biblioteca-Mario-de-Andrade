@@ -9,12 +9,13 @@ require "../backend/exibirLivros.php";
 <head>
     <title>Alteração de Livros</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="exibir.css">
+    <link rel="stylesheet" href="styles/exibir.css">
 </head>
-<main>
-    <body>
-        
-    </body>
-</main>
+
+<body>
+    <main>
+    </main>
+</body>
+
 
 </html>

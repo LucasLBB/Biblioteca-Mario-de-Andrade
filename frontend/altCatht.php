@@ -9,8 +9,8 @@
     <head>
         <meta charset="utf-8">
         <title>Alterar Categoria</title>
-        <link rel="stylesheet" href="header.css">
-        <link rel="stylesheet" href="cadCat.css">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/cadCat.css">
     </head>
 
     <body>

@@ -4,8 +4,8 @@
 <head>
     <title>Exibir Categorias</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="exibirCat.css">
-    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="styles/exibirCat.css">
+    <link rel="stylesheet" href="styles/header.css">
 </head>
 
 <body>
